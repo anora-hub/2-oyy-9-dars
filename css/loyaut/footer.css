@@ -28,7 +28,7 @@
         gap: 30px;
     }
 }
-@media (max-width:387px) {
+@media (max-width:450px) {
     .home {
         display: flex;
         flex-direction: column;
