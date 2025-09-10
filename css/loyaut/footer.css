@@ -1,0 +1,37 @@
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.home div p{
+    color: #657582;
+    padding-top: 10px;
+}
+.home div h3{
+    padding-bottom: 15px;
+}
+.footerr{
+    background-color:#2C9553 ;
+    margin-top: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.footer-desc{
+    color: white;
+    text-align: center;
+}
+@media (max-width:840px) {
+    .home{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 30px;
+    }
+}
+@media (max-width:387px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+}

@@ -1,0 +1,63 @@
+.says-title{
+    font-size: 54px;
+    font-weight: 770;
+    text-align: center;
+    margin-top: 100px;
+}
+.says-cardss{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.soy{
+    padding-bottom: 10px;
+    color: #888A9A;
+}
+.salad-cardss-desc{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color: black;
+    padding-top: 25px;
+}
+.says-cards{
+    
+    max-width: 500px;
+    height: 300px;
+    padding: 30px;
+}
+.sayt-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.dil{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.sayt-2img{
+    margin: 0 auto;
+        display: block;
+        margin-top: 20px;
+       
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:950px) {
+    .sayt-cards{
+        display: flex;
+            flex-direction: column;
+            gap: 100px;
+            align-items: center;
+    }
+}

@@ -1,0 +1,81 @@
+.salad-title{
+    font-size: 54px;
+    font-weight: 770;
+    padding-top: 60px;
+    text-align: center;
+}
+.salad-desc{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 15px;
+}
+.salad-card{
+    max-width: 356px;
+    height: 520px;
+    border-radius: 10px;
+    padding: 30px;
+    border: 1px solid black;
+    
+}
+.salad-card h1{
+    font-size: 50px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+}
+.salad-card p{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+}
+.salad-card img{
+    padding-left: 15px;
+    padding-top: 30px;
+}
+.salad-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.salad-btn{
+    width: 184px;
+        height: 64px;
+        padding: 20px;
+        font-size: 20px;
+        color: white;
+        background-color: #2C9553;
+        margin-top: 80px;
+        margin-bottom: 50px;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        margin-top: 20px;
+        border: none;
+        border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+@media (max-width:1069px) {
+    .salad-cards{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+}
+@media (max-width:730px) {
+    .salad-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+}

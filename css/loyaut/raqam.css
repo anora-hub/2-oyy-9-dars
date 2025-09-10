@@ -1,0 +1,35 @@
+.raqam-card{
+    max-width: 134px;
+    height: 100px;
+        padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.raqam-title{
+    font-size: 44px;
+    padding-bottom: 10px;
+}
+.raqam-decs{
+    font-size: 20px;
+}
+.raqam{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    justify-content: center;
+    padding-top: 40px;
+}
+@media (max-width:820px) {
+    .raqam{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+@media (max-width:480px) {
+    .raqam {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+    }
+}

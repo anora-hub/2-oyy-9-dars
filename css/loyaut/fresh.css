@@ -1,0 +1,44 @@
+.fresh{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin-top: 40px;
+}
+.fresh-card-title{
+    font-size: 54px;
+    font-weight: 770px;
+    line-height: 100%;
+}
+.fresh-card-decs{
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+.fresh-card-btn{
+    padding: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: #2C9553;
+        color: white;
+        border-radius: 30px;
+        font-size: 20px;
+        font-weight: 400;
+        border: none;
+        margin-top: 60px;
+}
+@media (max-width:1009px) {
+    .fresh{
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .fresh-card-title{
+        font-size: 34px;
+    }
+    .fresh-card-decs{
+        font-size: 17px;
+    }
+    .fresh-img{
+        width: 100%;
+    }
+}

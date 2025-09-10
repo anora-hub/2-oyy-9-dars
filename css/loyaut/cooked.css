@@ -1,0 +1,39 @@
+.cooked-carrdss{
+    display:flex;
+    align-items: center;
+    gap: 8px;
+    padding-top: 25px;
+}
+.cooked{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cooked-title{
+    font-size: 54px;
+    font-weight: 770;
+}
+.cooked-disc{
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+.cooked-carrdss p{
+    font-size: 20px;
+    font-weight: 500;
+}
+@media 
+(max-width:1069px) {
+    .cooked{
+        flex-wrap: wrap;
+        gap: 15px;
+    
+    }
+    .cooked-title{
+        font-size: 30px;
+        padding-top: 60px;
+    }
+    .cooked-img{
+        width: 100%;
+    }
+}
